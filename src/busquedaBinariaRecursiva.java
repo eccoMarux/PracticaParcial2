@@ -11,6 +11,7 @@ public class busquedaBinariaRecursiva {
     }
 
     public static int busquedaBinaria(int[] ar, int inicio, int fin, int num) {
+        //Busca recursicamente de forma binaria un valor dentro de un arreglo. De no encontrarlo retorna -1, sino la posicion.
         int posicion;
         if (fin < inicio) {
             posicion = -1;

@@ -4,6 +4,7 @@ public class cambioBinario {
     }
 
     public static String cambioBaseBinario(int decimal) {
+        //Cambio a base binaria
         String binario;
         int numero;
         if (decimal < 2) {

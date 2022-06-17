@@ -5,6 +5,7 @@ public class elementosParesMatriz{
     }
 
     public static int sumaElementosPares(int[][]matriz, int fila, int columna){
+        //Suma recursiva de los numeros pares dentro de una matriz.
         int suma=0;
         if(fila < matriz.length ){
             if(columna < matriz[0].length){

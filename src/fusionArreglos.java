@@ -19,6 +19,7 @@ public class fusionArreglos {
     }
 
     public static int[] fusionArreglada(int[]arr1, int[]arr2){
+        //Fusion de dos arreglos ordenados.
         int i=0, j=0, k=0,l, cantPosiciones, longitudArr1, longitudArr2;
         longitudArr1 = arr1.length;
         longitudArr2 = arr2.length;

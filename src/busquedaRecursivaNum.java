@@ -5,6 +5,7 @@ public class busquedaRecursivaNum {
     }
 
     public static boolean busquedaNum(int[] arr, int num, int posicion){
+        //Busca recursivamente un numero en un arreglo ordenado
         boolean existe=false;
         if(posicion < arr.length){
             if(arr[posicion] == num){
