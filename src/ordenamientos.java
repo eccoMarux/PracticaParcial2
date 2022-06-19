@@ -1,8 +1,10 @@
+import java.util.Arrays;
 public class ordenamientos {
     public static void main(String[] args) {
         int[] arreglo = { 5, 8, 9, 1, 3, 2 };
         insercion(arreglo);
         seleccion(arreglo);
+        System.out.println(Arrays.toString(arreglo));
         burbuja(arreglo);
         burbujaMejorada(arreglo);
     }
@@ -25,7 +27,7 @@ public class ordenamientos {
         for (int i = 0; i < arreglo.length; i++) {
             posicionDelMenor = buscarMenor(arreglo, i);
             if (arreglo[posicionDelMenor] < arreglo[i]) {
-                intercambiar(arreglo, posicionDelMenor, i);
+                intercambiar(arreglo, i, posicionDelMenor);
             }
         }
     }
